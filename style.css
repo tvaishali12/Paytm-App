@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 34px;
+}
+
+.paytm-img {
+  width: 180px;
+  position: relative;
+  bottom: 18px;
+}
+.center {
+  display: flex;
+  gap: 31px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.anchor {
+  text-decoration: none;
+  color: #625b5b;
+}
+
+.btn {
+  margin-top: -6px;
+  background: #00baf2;
+  padding: 2px 2px 2px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  gap: 10px;
+  border: none;
+}
+.emoji {
+  height: 48px;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  gap: 7px;
+}
+.anchor-2 {
+  color: #585353;
+  text-decoration: none;
+}
+/* learn more anchor-2 */
+.func-images {
+  width: 80px;
+  background: #eee9e9;
+  border-radius: 19px;
+}
+.function {
+  display: flex;
+  justify-content: space-around;
+}
+.transfermoney {
+  margin-left: 63px;
+  /* text-align: center; */
+  height: 107px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.mobile {
+  text-decoration: none;
+}
+.Upi {
+  text-decoration: none;
+}
+.bankbalance {
+  text-decoration: none;
+}
+.self-account {
+  text-decoration: none;
+}
+.L-R-content {
+  display: flex;
+}
+.paytm-img2 {
+  width: 90px;
+  border-radius: 16px;
+}
+.right-content {
+  margin-top: 100px;
+}
+.right-img {
+  width: 528px;
+}
+.left-content {
+  padding: 61px;
+  margin-top: 80px;
+}
+.left-content-a {
+  padding: 61px;
+  margin-top: 23px;
+}
+.h1 {
+  font-size: 49px;
+}
+.para-1 {
+  font-size: 20px;
+}
+.para-2 {
+  color: darkslategray;
+  font-size: 14px;
+}
+.recharge-pay {
+  background: #00baf2;
+  padding: 63px;
+  color: white;
+  /* padding-left: 63px; */
+  padding-top: 10px;
+}
+.icon-img {
+  width: 64px;
+  margin-bottom: 17px;
+  background: #fff;
+  border-radius: 100%;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+  margin-left: -42px;
+}
+h1 {
+  font-size: 32px;
+}
+.para-3 {
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: 600;
+}
+.book-buy {
+  background: #0f4a8a;
+  padding: 63px;
+  color: white;
+  /* padding-left: 63px; */
+  padding-top: 10px;
+}
+.upi-money-transfer {
+  position: relative;
+  top: -46px;
+  left: 15px;
+  font-weight: 600;
+}
+.a {
+  font-size: 34px;
+}
+.b {
+  font-size: 15px;
+}
+.right-img-2 {
+  margin-left: 251px;
+  width: 528px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* a:hover {
+  background-color: #b822a2;
+  border-radius: 5px;
+} */

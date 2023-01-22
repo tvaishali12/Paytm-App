@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+      }
+      #container {
+        width: 30%;
+        height: 99vh;
+        margin-left: 467px;
+        /* border: 1px solid black; */
+        position: relative;
+        background-color: darkgray;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+      }
+
+      .heading {
+        position: relative;
+        font-size: 21px;
+        left: 15px;
+        top: 8px;
+      }
+      .imglogo {
+        position: relative;
+        top: -2px;
+        /* left: 0px; */
+        height: -34px;
+        width: 114px;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+      .h2 {
+        text-align: center;
+        padding: 35px;
+        font-size: 23px;
+        color: white;
+        padding-bottom: 11px;
+      }
+      input {
+        padding: 20px;
+        margin-left: 105px;
+        outline: none;
+        border-radius: 38px;
+        border: none;
+      }
+      #btn {
+        position: relative;
+        top: 77px;
+        right: 133px;
+        /* padding: 3px; */
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        background: darkblue;
+        border: none;
+        color: white;
+      }
+      #demo {
+        font-size: 39px;
+        position: relative;
+        right: -171px;
+        top: 100px;
+      }
+      #s1 {
+        position: relative;
+        top: -80px;
+        left: 137px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <a href="http://127.0.0.1:5500/Paytm/index2.html">
+          <span
+            style="color: black; position: relative; top: 21px; left: 27px"
+            class="material-symbols-outlined"
+          >
+            arrow_back
+          </span>
+        </a>
+        <h1 class="heading">State Bank Of India</h1>
+        <span class="imglogo">
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANDw8NDxMQEBAPDhEOEQ8QDhAQDxEYFxUXFyASFRUYHSggGB4oHxMTIjMhJikrMC4uGB8zODMtNygtLisBCgoKDQ0NEBAPFS0hICU3MzU3LS0rLSsrNzc3Ky83MSwtKzctLSs3Nzg3Li03NzcrKzcxKys3LTU1LS03Ny04Lf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAEBAAMBAQEAAAAAAAAAAAAAAQUGBwQCA//EAEIQAAICAQICBAoHBwIHAQAAAAABAgMEERIFIRMxUZEGBxQiQWFxgaHRFjJSVJKTohVCU3KCscEjsjRDYmTD0uEk/8QAGgEBAQADAQEAAAAAAAAAAAAAAAEDBAUGAv/EACURAQACAgAFAwUAAAAAAAAAAAACAwEEBRETQWEhMbEGEkJRof/aAAwDAQACEQMRAD8A7iAAAAAEKQAACoAAAAAAAAAAAAAAAAAAAAAAAABAIgoACgAAAAAAAAAAAAAQpAAAKgNACKaDQABoNAAGg0AAaDQABoNAAGg0AAaAAAACoABkFAAUAAAAAAAAAAAAACFIAABUAAAAAAAAAAAAAAAAAAAAAAAAAABQARQAAAAAAAAAAAAAIUgAAFR4eJcXoxNvT2Qq367dzfPTTXTvXefPDuNY2VKUaLYWuKUpKOvJPlqznPjLzekzI1LqoqUfZKfnP4bDP+K3C2Y92Q+u63an2xrX/tKfcRW7gAqB5s/OqxoO26ca4JpOUurVvRI9JoHjVzdIY2Mv3pSukvVFbVr+OXcQbVh+EWHfZGqq6E5y10jHXV6LV+jsTP14jxvGxZRhfbCuUluSk3q11a8jQfFdhb8i7IfVVUq17Zv5Qf4j8/DjAy8rOsnCi+dcIQqhKNUnFpLVtP8AmlIK3f6W8P8AvNXe/kPpbw/7zV3v5HKvo9m/dsj8mfyH0ezfu2R+TP5AdV+lvD/vNXe/kPpbw/7zV3v5HKvo9m/dsj8mfyH0fzfu2R+TP5AdV+lvD/vNXe/ke/h3FKMpOVFkLVF6S2vXbr2r0HDsvFsol0dsJ1z0Uts4uMtH6dH7Gb74qcVqOVkPqk66V/SnJ/74/EDbeJcfxcSarvtjXJx3pNSb01a15LtT7j9OGcWozIylRNWRhJRk0pLR6a6c0cn8Nszp8++S5qElTH2QWj/VvOg+L/D6Hh9Un13OV79knpH9MYgbFC1Nyimm4tKS9K1WvP3NCq6M921p7ZOEtHro16H6+ZovCOOqOfdOT0qvnKOrfJbeUZdy095ivF74SN519dj83OsndDV/Vnzenvjy/pRra+1G7Gc4/fJd2OdS2qE/ydTBEU2nyoAIoAAAAAAAAAAAAAEKQASTSWr6lzKYXwxzfJ8DIsT0k4dFH2zezX3btfcEcg4vm+UZF+R/EtlNezXku5I7P4N4Pk2Jj0+mNUd380vOfxbOP+DuF5TmY9PolbFy/lj57+EWdxQVQAVA474e5vTZ9yXVSo0L+lav9UpHXMu9VVztl9WuErH7IrX/AAcHnKd9jfXZdY37ZTl82TK4dS8XWIqcBWy0XTTlc2/srzV7tI6+82VZdX8Sv8cfmax4ZzWFwryePLdGrEj61pz/AEwkcp2rsXcB37yqv7cPxxHlNf24fjicB2rsXwG1di+AHfvKa/tw/HEeVV/bh+OPzOA7V2L4DauxfADLeFWb5Tm5NqesekcIv/ph5q0/C37zo/gzBYHCoWy5aUzyp+2Sc0u7ajmXBeE2Zt0Ka4yabW+ST2wj6ZN9S5d50fxi5SowOhjy6acKUl9lec/hBL3kHLq4TvsjHrsusS9spy+bO08VsWHhT2clVSq4e3RRj/g5n4A4fTZ9Ta5UqVz/AKVovjJdxuvh/lbaqqV/zJ72vVH/AOtdxr7dvTosl4bGrV1b64eWi7eWnuNeyISxrk4Pa4SjZXLs0eqfuaRsRheNXwk1Fc5R636F6jzvC7Jxu+3GPTLofVVFUtTFks8pRz6efDtng7xWOdi1ZEf34+dH7Mlyce/UyZo/iv4Zk49Fk7vMqucZ1VST3rlo5vs1W3l6tTdz1ePZwdecp1xzLHLL6AAZgAAAAAAAAAAAAAIUgA0HxqZulePjL9+crpL1RW1fGb7jfjkPjDyXZxCyL10qhXXH2bd2vfN9wyYe/wAV2Fvybsh9VNSgv5pvr7oS7zpxwOjKsr1Vc7IJ82oWTgn7dHzP0/aWR/Gv/Pt+YHedRqcG/aWR/Gv/AD7fmP2lkfxr/wA+35gdT8Yeb0OBZFdd8o0L1p85fpjLvOf+BGF0+fjprWNbd8vZBar9WwxF+VZYkrLLJpPVKdk5petas3vxV4P/ABGU117aIP2edLT9HcB+HjTzd1uPjL9yErpL1ye1fCMu8/XxVYWryclr7FEf90v/ABmr+Fmb5RnZNnWlY64+yHm/4b950zwFwugwKE/rWJ3y/req/TtXuAz2xdi7hsXYu4+gVHzsXYu4bF2LuPoAfO3Q5n40s3fk00Lqqqc3/NY/8KC/EdNZw/wkzfKMzJu182VslH+WPmL4RT95Fbn4q8PSGTktfWnGmPsitzffNL+k8vhrldJlyj6Koxr9/wBZ/wB13G1+CeKsTh9ClyfRdNPX0Oes3r7NUvca/g8M1jfxTLWkErMmNT/e01knL1di9JzeI1ztjCqHf4w6HD7a6JTun2x/Wh8S4hs1rg/O6pS+z6l6zbvATwJ1cM3Mj2Sqoku6yxf2j732H7eBHgbJyWfnLWyUulhTJdTb16Sxdur1UfR6efV0RIz6upCiPLDkWzu3buvse3aPbAkUA3GZQARQAAAAAAAAAAAAAIUgHzOSitXoklq23ol6zxZnD8a6Sd1VNktNE7IQlLTX0arXTVrvMf4cbnhSgoSnCd2NXco1yskqZX1q17I6t/6e/qRg+M0y4jdyjfGnInjYNdqrspsUITnk3WxbSlBPoq4KT05rl6Co2WfAsGPXj4y5N86a1yXW+r1o+Xwbh+u3oMTX7PR1a9WvVoatxDCy7pzpyYOco14/DoXqPmX135Cldby+q+ioipLl5yfoaFnCbJ4+XlbK+kz77KoLyReUwjbYseM+lb1UVUk9NFy9IG0/sbh+qj0GJq+pdHVq/doWvgmBPnGjFl/LVU/7I0uytJcVya0umlK+FNcuH2O6pQjHErlXdpyj5inpFdUm+0zvAeG0LMruwqegx6MOWPOxY7x1kScobY7Wk5qChJ7mtNZ6J9YGX/YeBu29Bi7uvb0VW7u0MjTCFUY1wUIR+rGMUox7dEl7zRMvh9ll9vElCNlq4hKOJTLHcbZTqg6I773zhTrGyx6Jar0vXRx4uTDFyKJq1ZNXEsPIx7denkpXWVJ2apJbdzv3RWijBtckBtv7Cwnr/wDnxm9ef+jW3q+fPl18/ie/fCtJaxhFaRWrUUtF1I03Ix8mjJqnhQnZXj2zxpRlqvKLL65TnlWya5qM1j6yXbal1JGN8nnZPExsiW51W8QtlZkYFmTCyyeS64PYvNj5vStdia9AHR42J800/Wnqu3/KPhZVfJb4avTRb46vXq05+s0SWLl1V52diRm/KLL8byRqUVGFUVjVX0wfKOjrcml9aEl17Vr64cHxse/IteP/AKeDgYuNXKrF33bkm3ZVtjrKUYqjRrVrbyA3Ku6Mtdsoy2vR6ST0fY+wsbE+pp9fU9erl/c1PwMqWHiXy6KChj611X14rx7suqqtNTnXpru1dkdeqWmqSUtDGcH4Xlxdd9bkr8LFx4zqesasqd26/IrevLVuyG2X7sorXluTDe55Na5OcF6NHKJ4HwzB1a6LE1XNro6dV7eRrHD+DQunw1ZOPGUujzOJ3uyiMts7JcqZtr/urXt7a9fQY3HwXkYtmyNUr83IUZxnw6ddlauulZKFtr0c4quEoNLRdS7AOjytr2rWUNjWi1lHa/UvQfcoxmtHpKL0foafpOecO4OrehWyuqNVGRnXwuwN+PC6+za64VapLYqLVyb5S157tX7IW5yyFkqmVayMTIoxat2sK9sFZTGytRSqk9k92r65qP7qIN3V0N2zdHdprt3Ldp26dZar4z+rKMtOvbJP+xo03ixwLZ4+Pa8yrEnYrrsK1ZCvnB17p2yhq7G5vXRvlr6DPeB/D6qMdKronHza1KvCeI2oLalKL5yfXzfaUZ8AAUAEUAAAAAAAAAAAAACFIAJoUFRNAUAQugAE0GhQBNBoUATQaFAE0GhQBNBoUATQaFAE0KgAAAAoAIoAAAAAAAAAAAAAEKQAACoAAAAAAAAAAAAAAAAAAAAAAAAAACgAigAAAAAAAAAAAAAQoAgKAICgCAoAgKAICgCAoAgKAICgCAoAgKAINCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/2Q=="
+            alt=""
+          />
+        </span>
+      </div>
+      <h2 class="h2">ENTER UPI PIN</h2>
+      <input type="passwod" id="inputBox" />
+      <!-- <a href="http://127.0.0.1:5500/Paytm/done.html"> -->
+      <button id="btn" onclick="checkbalance(event)">
+        <span class="material-symbols-outlined"> done </span>
+      </button>
+      <!-- </a> -->
+      <span id="s1"></span>
+      <div id="demo"></div>
+    </div>
+  </body>
+  <script>
+    function checkbalance(e) {
+      // console.log("vaishali");
+      e.preventDefault();
+      var uname, pwd, s1;
+      uname = document.getElementById("inputBox");
+      s1 = document.getElementById("s1");
+
+      if (uname.value == "") {
+        s1.innerHTML = "**Plz Enter UPI Pin**";
+        uname.style.border = "1px solid red";
+        return;
+      } else if (uname.value !== "123") {
+        s1.innerHTML = "**Incorrect UPI Pin**";
+        return;
+      } else {
+        s1.innerHTML = "";
+        uname.style.border = "none";
+      }
+
+      localStorage.setItem("Bankbalance", "5000");
+      const inputvalue = localStorage.getItem("Amount");
+      document.getElementById("demo").innerText =
+        localStorage.getItem("Bankbalance") - inputvalue;
+      localStorage.setItem("Bankbalance", remainAamount);
+    }
+  </script>
+</html>

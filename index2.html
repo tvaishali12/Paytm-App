@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+      }
+      #mainContainer {
+        width: 30%;
+        /* height: 110vh; */
+        margin-left: 467px;
+        border: 1px solid black;
+        position: relative;
+        background-color: darkgrey;
+      }
+      .header {
+        background: #6a0b6a;
+        height: 75px;
+      }
+      .imgDiv {
+        padding: 10px;
+        height: 138px;
+      }
+      .topImage {
+        height: 100%;
+        width: 100%;
+        border-radius: 7px;
+      }
+      /* .func-images {
+            width: 80px;
+            background: #eee9e9;
+            border-radius: 19px;
+          } */
+      .para-2 {
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        color: black;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      .icons {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 100px;
+      }
+      .functionItem {
+        padding-left: 20px;
+        background: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 8px;
+        margin-top: -21px;
+        margin-bottom: 31px;
+      }
+      .material-symbols-outlined {
+        font-size: 33px;
+        background: darkmagenta;
+        border-radius: 16px;
+        padding: 8px;
+      }
+      h3 {
+        padding-top: 20px;
+      }
+      .mso {
+        background: none;
+        color: darkmagenta;
+      }
+      .mso2 {
+        color: white;
+      }
+      .flag {
+        width: 34px;
+      }
+      .flagCon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .headerContent {
+        display: flex;
+        position: relative;
+        top: 10px;
+        justify-content: space-between;
+      }
+      .para1 {
+        font-size: 14px;
+        color: white;
+      }
+      .swiper .swiper-button-prev,
+      .swiper .swiper-button-next {
+        color: #fff;
+      }
+
+      .swiper-button-prev:after,
+      .swiper-button-next:after {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div class="header">
+        <div class="headerContent">
+          <div class="accountCiecle">
+            <span class="material-symbols-outlined mso mso2">
+              account_circle
+            </span>
+          </div>
+          <div class="flagCon">
+            <img
+              class="flag"
+              src="https://www.freepnglogos.com/uploads/flag-logo-png/flag-logo-transparent-india-flag-23.png"
+              alt=""
+            />
+
+            <span class="para1">Select City</span>
+          </div>
+          <div class="scan">
+            <span class="material-symbols-outlined mso mso2">
+              qr_code_scanner
+            </span>
+          </div>
+          <div class="ques">
+            <span class="material-symbols-outlined mso mso2"> help </span>
+          </div>
+        </div>
+      </div>
+      <div class="imgDiv">
+        <!--  -->
+
+        <div class="swiper" style="height: 138px">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                class="topImage"
+                src="https://images.freekaamaal.com/post_images/1635140667.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="topImage"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxljC_U07HMnQz1NEQhBN7aZ4r1LP6Wpf0w&usqp=CAU"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="topImage"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Z7-2nmXJuoJGa2kDTbTStNjyW_hvLdCs6A&usqp=CAU"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <!--  -->
+
+        <!-- <img
+          class="topImage"
+          src="https://images.freekaamaal.com/post_images/1635140667.webp"
+          alt=""
+        /> -->
+      </div>
+      <div class="functionItem">
+        <div><h3>Transfer Money</h3></div>
+        <div class="icons">
+          <span>
+            <a class="mobile" href="http://127.0.0.1:5500/Paytm/contact.html">
+              <span class="material-symbols-outlined"> person </span>
+
+              <p class="para-2">
+                Mobile <br />
+                Number
+              </p>
+            </a>
+          </span>
+
+          <span>
+            <a
+              class="bankbalance"
+              href="http://127.0.0.1:5500/Paytm/CheckBalance.html"
+            >
+              <span class="material-symbols-outlined"> account_balance </span>
+              <p class="para-2">
+                Bank <br />
+                Balance
+              </p>
+            </a>
+          </span>
+          <span>
+            <a href="http://127.0.0.1:5500/Paytm/history.html">
+              <span class="material-symbols-outlined">
+                swap_horizontal_circle
+              </span>
+              <p class="para-2">History</p>
+            </a>
+          </span>
+          <span></span>
+        </div>
+      </div>
+      <div class="functionItem functionItem2">
+        <div>
+          <h3>Recharge & Pay Bills</h3>
+        </div>
+        <div class="icons">
+          <span>
+            <span class="material-symbols-outlined mso"> smartphone </span>
+            <p class="para-2">Mobile <br />Recharge</p>
+          </span>
+          <span>
+            <span class="material-symbols-outlined mso">
+              tips_and_updates
+            </span>
+            <p class="para-2">Electricity</p>
+          </span>
+
+          <span>
+            <span class="material-symbols-outlined mso"> water_drop </span>
+            <p class="para-2">Water</p>
+          </span>
+          <span>
+            <p class="para-2"></p>
+          </span>
+        </div>
+      </div>
+      <div class="functionItem functionItem2">
+        <div>
+          <h3>Travels Bookings</h3>
+        </div>
+        <div class="icons">
+          <span>
+            <span class="material-symbols-outlined mso"> flight </span>
+            <p class="para-2">Flifht</p>
+          </span>
+          <span>
+            <span class="material-symbols-outlined mso">
+              directions_subway
+            </span>
+            <p class="para-2">Trains</p>
+          </span>
+
+          <span>
+            <span class="material-symbols-outlined mso"> villa </span>
+            <p class="para-2">Hotels</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>
